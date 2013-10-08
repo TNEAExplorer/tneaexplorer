@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+		<title>TNEA &middot; Explorer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="TNEA Explorer provides you list of possible engineering colleges you can get in the upcoming Tamil Nadu Engineering Admissions 2013 based on your cut off mark and community">
+		<meta name="author" content="Amith Kumar M K">
+		<meta name="author" content="Ashwin Balaji">
+		<meta name="keywords" content="tnea,tamilnadu engineering admission,tnea 2013,tamilnadu engineering counselling,anna university counselling,tnea explorer">
+		<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="assets/css/custom.css" rel="stylesheet">
+		<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="assets/css/normalize.css" rel="stylesheet">
+        <link rel="shortcut icon" href="assets/ico/t.e.ico">
+	</head>
+	<body>	
+		<a href="https://plus.google.com/111590687598705876777?rel=author" style="display:none">Amith Kumar Google+ Profile</a>
+		<div class="container-fluid">
+			<div class="masthead">
+				<h1 class="muted">TNEA &middot; Explorer</h1>
+				<hr />
+			</div>
+			<div class="single-space-adjustor"></div>
+			<div id="home_middle_content" class="jumbotron text-center">
+				<h2>Wanna know what your seniors got..?</h2>
+				<p class="lead">Enter your cut off mark and community and find what colleges can take you towards your destiny</p>
+				<div class="double-space-adjustor"></div>
+				<input type="text" name="cutoffmark" class="input-large" id="myMark" placeholder="cut off mark" />
+				<input type="text" name="cast" class="input-large" data-provide="typeahead" id="myCommunity" placeholder="community" autocomplete="off" />
+				<input type="button" value="Dot it" class="btn btn-primary btn-large" id="search" />
+				<div id="error" class="alert alert-error hide">
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+					<b>Oh snap!</b>Your entered incorrect details.
+				</div>
+			</div>	
+			<div id="clg_middle_content" class="hide">
+				<div>
+					<input type="text" name="cutoffmark" class="input" id="second_myMark" placeholder="cut off mark" />
+					<input type="text" name="cast" class="input" data-provide="typeahead" id="second_myCommunity" placeholder="community" autocomplete="off" />
+					<input type="button" value="Dot it" class="btn btn-primary " style="margin-bottom: 13px;"id="second_search" />
+					<div id="second_error" class="alert alert-error hide">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+						<b>Oh snap!</b>Your entered incorrect details.
+					</div>
+				</div>
+				<div id="dynamic_content"></div>
+			</div>
+			<div class="double-space-adjustor"></div>
+			<!--<hr />-->
+			<footer  class="footer">
+				<div id="footer" class="container-fluid">
+					<ul class="unstyled inline">
+						<li>
+							<!--<a href="https://www.facebook.com/tneaexplorer" target="_blank"><p class="icon-facebook icon-2x"></p></a>-->
+							<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ftneaexplorer&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;font=trebuchet+ms&amp;colorscheme=light&amp;action=recommend&amp;height=21&amp;appId=504966766191555" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:113px; height:21px;" allowTransparency="true"></iframe>
+						</li>
+						<!--<li>
+							<a href="https://www.twitter.com/Im_Amith"  target="_blank"><p class="icon-twitter icon-2x"></p></a>
+						</li>-->
+						<li>
+							<iframe class ="github-btn" src="http://ghbtns.com/github-btn.html?user=mkamithkumar&repo=tnea_explorer&type=watch&count=true"
+							allowtransparency="true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
+						</li>
+						<li>
+							<iframe class ="github-btn" src="http://ghbtns.com/github-btn.html?user=mkamithkumar&repo=tnea_explorer&type=fork&count=true"
+							allowtransparency="true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
+						</li>
+					</ul>
+					<p>We need your love and care to grow better. Please provide your suggestions and feedback at <a href="https://github.com/mkamithkumar/tnea_explorer/issues" target="_blank">Github Issue Tracking</a></p>
+					<p><b>Disclaimer:</b> All informations shown in this website are genuine and based on 2012 counselling stats provided by <a href="http://www.annauniv.edu/" target="_blank">anna university</a>.This website is not meant for any commercial purpose, this website is purely intended to provide a better service for engineering students</p>
+				</div>
+			</footer>
+		</div> <!-- /container --> 	
+		<script src="assets/js/jquery-1.10.1.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/custom.js"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-41668681-2', 'af.cm');
+			ga('send', 'pageview');
+		</script>
+	</body>
+</html>
